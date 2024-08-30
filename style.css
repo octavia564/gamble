@@ -1,0 +1,36 @@
+.bg{
+background-color: rgb(33, 144, 33); 
+}
+.text{
+    color: black
+}
+
+.Jimmy{
+    color: rgb(100, 200, 75);
+    font-size: 20pt;
+    
+
+}
+.Jimmy:hover{
+    color:darkred;
+}
+.image-holder {
+    display: flex;
+    justify-content: center;
+
+    
+}
+.help {
+    color: rgb(100, 200, 75);
+    font-size: 30pt;
+
+}
+.help:hover{
+    color:darkred
+}
+
+.you {
+    width: 30%;
+    border-radius: 30%;
+    margin: 0% 5% 0% 5%;
+}

@@ -2,14 +2,24 @@
 background-color: #ffffff; 
 }
 .text{
-    color: red
+    color: red;
+    padding:2px;
+    text-align: center;
 }
 .texts{
-    color: darkred
+    color: #8b0000;
+    padding:2px;
+
+}
+.textp{
+    color: red;
+    padding:2px;
 }
 .textz{
     font-size:40pt;
     color: red;
+    padding:2px;
+    text-align: center;
 }
 .Jimmy{
     color: rgb(100, 200, 75);
@@ -29,6 +39,7 @@ background-color: #ffffff;
 .help {
     color: rgb(100, 200, 75);
     font-size: 30pt;
+    padding:2px;
 
 }
 .help:hover{
@@ -42,9 +53,8 @@ background-color: #ffffff;
 }
 
 .bg {
-    background: rgb(0, 152, 238);
     background-image: linear-gradient(
-      1deg,
+      -5deg,
       black,
       gold
     );
@@ -53,6 +63,12 @@ background-color: #ffffff;
     background-attachment: fixed;
   }
  
-.sound{
-    display: none;
+  
+
+.sounding{
+    max-width:200px;
+    position:absolute;
+    bottom:-10;
+    right:0;
+        
 }
